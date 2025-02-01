@@ -1,5 +1,6 @@
 import React from "react";
-import { Code2, Globe, Server } from "lucide-react";
+import { Code2, Server } from "lucide-react";
+import "./Hero.css";
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
+          <div className="" style={{ width: "600px", height: "400px" }}>
             {/* <img
               src="https://images.unsplash.com/photo-1544256718-3bcf237f3974?auto=format&fit=crop&q=80&w=600&h=400"
               alt="Working on laptop"
@@ -18,9 +19,9 @@ const About = () => {
             /> */}
 
             <img
-              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=600&h=400"
+              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
               alt="Developer workspace"
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
           </div>
 

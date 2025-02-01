@@ -1,7 +1,8 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import "./Hero.css";
 
-const customImage = {
+const customImage5 = {
   width: "600px",
   height: "600px",
 };
@@ -40,13 +41,13 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="flex-1">
+          <div className="" style={{ width: "600px", height: "600px" }}>
             <img
-              src="https://res.cloudinary.com/dm6idxzxg/image/upload/v1738045415/WhatsApp_Image_2025-01-28_at_11.51.18_AM_rcw9tf.jpg?auto=format&fit=crop&q=80&w=600&h=400"
+              src="https://res.cloudinary.com/dm6idxzxg/image/upload/v1738045415/WhatsApp_Image_2025-01-28_at_11.51.18_AM_rcw9tf.jpg"
               alt="Developer workspace"
-              className="rounded-lg shadow-xl w-[600px] h-[600px]"
-              style={customImage}
-              // style={{ width: "600px", height: "600px" }}
+              className="rounded-lg shadow-xl w-full h-auto object-cover"
+
+              // style={{ width: "600px", height: "600px" }} w-[600px] h-[600px] dazzling-piroshki-1e13d5
             />
           </div>
         </div>
